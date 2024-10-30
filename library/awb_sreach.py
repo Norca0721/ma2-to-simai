@@ -59,7 +59,7 @@ def clean_temp_folder(temp_path):
         except Exception as e:
             print(f"删除文件 {temp_file} 时出错：", e)
 
-chart_path = ROOT.parent / "待转"
+chart_path = ROOT.parent / "ChartData"
 awb_path = ROOT.parent / "SoundData"
 temp_path = ROOT / "temp"
 
