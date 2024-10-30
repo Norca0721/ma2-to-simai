@@ -1,5 +1,9 @@
-ChartData/*
-CoverData/*
-MovieData/*
-SoundData/*
-library/temp/*
+ChartData/*.txt
+ChartData/*.mp4
+ChartData/*.mp3
+ChartData/*.png
+CoverData/*png
+MovieData/*dat
+SoundData/*awb
+SoundData/*awc
+library/temp/
