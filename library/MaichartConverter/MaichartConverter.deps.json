@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MaichartConverter/1.0.7.1": {
+        "dependencies": {
+          "ManyConsole": "2.0.1",
+          "ManyConsole.Standard": "2.0.0"
+        },
+        "runtime": {
+          "MaichartConverter.dll": {}
+        }
+      },
+      "ManyConsole/2.0.1": {
+        "dependencies": {
+          "Mono.Options": "5.3.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ManyConsole.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "ManyConsole.Standard/2.0.0": {
+        "dependencies": {
+          "Mono.Options": "5.3.0.1"
+        }
+      },
+      "Mono.Options/5.3.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/Mono.Options.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaichartConverter/1.0.7.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManyConsole/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JaNOJjBcZ5qvkvhtw0NTT5qcV29s7kV7IbeonCfV4tX9Wyewe2dcSkuNNmUkZDyeTyFNL9RPicOD7Vf8xuqhRQ==",
+      "path": "manyconsole/2.0.1",
+      "hashPath": "manyconsole.2.0.1.nupkg.sha512"
+    },
+    "ManyConsole.Standard/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLec2vJiIgvd9ULR2I3PHNQ5rV9d1wTDnpfgrFblHOmNao+AMpfS9QyXbckNaxW95J7BDy9qWsJ9Y321AB/NpQ==",
+      "path": "manyconsole.standard/2.0.0",
+      "hashPath": "manyconsole.standard.2.0.0.nupkg.sha512"
+    },
+    "Mono.Options/5.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irTJcHgEoQRf+otUaCqpMv8D4npzdWpsD3PcdPJoj/T0KkQJMKcSzlzaaELZlzu9IVAZl/lyuhEmaT4t43BBPA==",
+      "path": "mono.options/5.3.0.1",
+      "hashPath": "mono.options.5.3.0.1.nupkg.sha512"
+    }
+  }
+}
