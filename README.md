@@ -16,6 +16,6 @@ pip install -r requirements.txt
 - **python版本**: 3.9以上
 - **NET版本**: 8.0
 
-**如果发现有bug欢迎提交issus和requests**
+##如果发现有bug欢迎提交issus和requests
 **感谢使用**
 ---
