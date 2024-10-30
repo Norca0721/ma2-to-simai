@@ -44,7 +44,7 @@ def convert_ivf_to_mp4(ffmpeg, temp_directory, chart_subdir):
                 mp4_path = chart_subdir / "pv.mp4"
                 try:
                     subprocess.run([
-                        str(ffmpeg), '-i', str(ivf_path), '-c:v', 'h264_nvenc', str(mp4_path)
+                        str(ffmpeg), '-y', '-i', str(ivf_path), '-c:v', 'h264_nvenc', str(mp4_path)
                     ], check=True)
                     print(f"Successfully converted {ivf_path} to {mp4_path}")
                 except subprocess.CalledProcessError as e:
