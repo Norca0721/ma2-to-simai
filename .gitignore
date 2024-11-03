@@ -1,14 +1,13 @@
-ChartData/*
 CoverData/*
 MovieData/*
 SoundData/*
 ChartDatalog.txt
+ChartData/*
+ChartData/music/*
+*.zip
 
-!ChartData/music/*
 !ChartData/music/.gitkeep
 !ChartData/.gitkeep
 !MovieData/.gitkeep
 !SoundData/.gitkeep
 !CoverData/.gitkeep
-
-*zip
